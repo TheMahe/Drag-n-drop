@@ -1,3 +1,38 @@
+/**
+ * 
+ * This CSS file contains styles for a drag and drop functionality.
+ * It imports the "Quicksand" font from Google Fonts and sets up the background image.
+ * The file defines styles for various columns, custom scrollbar, headers, drag items, and add button group.
+ * It also includes media queries for responsive design.
+ * 
+ * @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+ * 
+ * CSS classes:
+ * - html: Sets the box-sizing property to border-box.
+ * - :root: Defines custom CSS variables for column colors.
+ * - body: Sets the background image, font family, and overflow-y property.
+ * - h1: Defines styles for headings.
+ * - .main-title: Styles the main title.
+ * - ul: Resets the default styles for unordered lists.
+ * - .drag-container: Styles the drag container.
+ * - .drag-list: Styles the drag list.
+ * - .drag-column: Styles the drag columns.
+ * - .backlog-column, .progress-column, .complete-column, .on-hold-column: Styles the different columns.
+ * - .custom-scroll: Styles the custom scrollbar.
+ * - .header: Styles the column headers.
+ * - .drag-item-list: Styles the drag item list.
+ * - .drag-item: Styles the drag items.
+ * - .add-btn-group: Styles the add button group.
+ * - .add-btn: Styles the add buttons.
+ * - .solid: Styles the solid elements.
+ * - .plus-sign: Styles the plus sign icon.
+ * - .add-container: Styles the add container.
+ * - .add-item: Styles the add items.
+ * 
+ * Media Queries:
+ * - Laptop: Styles for screens up to 1800px width.
+ * - Large Smartphone (Vertical): Styles for screens up to 600px width.
+ */
 /* Trees Image - Pexels: https://www.pexels.com/photo/photo-of-trees-in-forest-3801030/ */
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 
